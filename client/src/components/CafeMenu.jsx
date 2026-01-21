@@ -1,17 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cafe Menu</title>
-    <link href="styles.css" rel="stylesheet"/>
-  </head>
-  <body>
-    <div className="menu">
+import "../../dummy/styles.css"
+
+export const CafeMenu=()=>
+{
+    return( <div className="menu">
       <main>
         <h1>CAMPER CAFE</h1>
         <p className="established">Est. 2020</p>
-        <hr>
+        <hr/>
         <section>
           <h2>Coffee</h2>
           <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
@@ -48,7 +43,7 @@
           </article>
         </section>
       </main>
-      <hr className="bottom-line">
+      <hr className="bottom-line"/>
       <footer>
         <address>
           <p>
@@ -57,6 +52,5 @@
           <p className="address">123 Free Code Camp Drive</p>
         </address>
       </footer>
-    </div>
-  </body>
-</html>
+    </div>)
+}
